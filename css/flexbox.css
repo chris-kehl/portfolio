@@ -1,0 +1,339 @@
+
+   /* Larger than mobile */
+   @media (min-width: 200px) {
+    .main-header,
+    .main-nav {
+        display: flex;
+    }
+    .main-header,
+    .main-nav  {
+        flex-direction: column;
+        list-style: decimal-leading-zero;
+        list-style: none;
+    }
+    .aboutH1 {
+        font-family: 'Varela Round', sans-serif;
+        line-height: 1.5;
+        font-family: 'Open Sans';
+        font-size: 1.5em;
+    }
+    .aboutH2 {
+        font-family: 'Varela Round', sans-serif;
+        line-height: 1.5;
+        font-size: 1.0em;
+    }
+    #aboutH3 {
+        font-family: 'Varela Round', sans-serif;
+        line-height: 1.5;
+        font-size: 1.0em;
+    }
+    
+    .main {
+        font-family: 'Varela Round', sans-serif;
+        font-size: 1.0em;
+    }
+    .footer-inner {
+        font-family: 'Varela Round', sans-serif;
+        line-height: 1.6;
+        font-family: 'Open Sans';
+        font-size: 0.5em;
+    }
+
+ }
+
+  /* Larger than mobile */
+  @media (min-width: 400px) {
+    .main-header,
+    .main-nav {
+        display: flex;
+    }
+    .main-header,
+    .main-nav  {
+        flex-direction: column;
+        list-style: decimal-leading-zero;
+        list-style: none;
+    }
+    .aboutH1 {
+        font-family: 'Varela Round', sans-serif;
+        line-height: 1.5;
+        font-family: 'Open Sans';
+        font-size: 1.5em;
+    }
+    .aboutH2 {
+        font-family: 'Varela Round', sans-serif;
+        line-height: 1.5;
+        font-size: 1.0em;
+    }
+    #aboutH3 {
+        font-family: 'Varela Round', sans-serif;
+        line-height: 1.5;
+        font-size: 1.0em;
+    }
+    
+    .main {
+        font-family: 'Varela Round', sans-serif;
+        font-size: 0.8em;
+    }
+    .row {
+        font-family: 'Varela Round', sans-serif;
+        font-size: 0.7em;
+    }
+    .footer-inner {
+        font-family: 'Varela Round', sans-serif;
+        line-height: 1.6;
+        font-family: 'Open Sans';
+        font-size: 1.0em;
+    }
+    
+    /* creates the column layout on the about page */
+    
+  }
+  
+  /* Larger than phablet (also point when grid becomes active) */
+  @media (min-width: 550px) {
+    .main-header,
+    .main-nav {
+        display: flex;
+    }
+    .main-header {
+        flex-direction: column;
+        justify-content: center;
+        list-style: none;
+        align-items: center;
+    }
+    .aboutH1 {
+        font-family: 'Varela Round', sans-serif;
+        line-height: 1.6;
+        font-family: 'Open Sans';
+        font-size: 1.5em;
+    }
+    .aboutH2 {
+        font-family: 'Varela Round', sans-serif;
+        line-height: 1.5;
+        font-size: 1.3em;
+    }
+    #aboutH3 {
+        font-family: 'Varela Round', sans-serif;
+        line-height: 1.5;
+        font-size: 1.2em;
+    }
+    
+    .main {
+        font-family: 'Varela Round', sans-serif;
+        font-size: 1.3em;
+    }
+    
+    /* creates the column layout on the about page */
+    .column {
+        float:right;
+        width: 50%
+    }
+    .footer-inner {
+        font-family: 'Varela Round', sans-serif;
+        line-height: 1.6;
+        font-family: 'Open Sans';
+        font-size: 1.0em;
+    }
+  }
+  
+  /* Larger than tablet */
+  @media (min-width: 750px) {
+    .main-header,
+    .main-nav  {
+        display: flex;
+        list-style: none;
+    }
+    .main-header {
+        flex-direction: row;
+        justify-content: center;
+        list-style: none;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
+    .aboutH1 {
+        font-family: 'Varela Round', sans-serif;
+        line-height: 1.6;
+        font-family: 'Open Sans';
+        font-size: 1.5em;
+    }
+    .aboutH2 {
+        font-family: 'Varela Round', sans-serif;
+        line-height: 1.6;
+        font-size: 1.5em;
+    }
+    #aboutH3 {
+        font-family: 'Varela Round', sans-serif;
+        font-size: 1.3em;
+    }
+    
+    .main {
+        font-family: 'Varela Round', sans-serif;
+        font-size: 1.3em;
+    }
+    
+    /* creates the column layout on the about page */
+    .column {
+        float:right;
+        width: 50%
+    }
+    .footer-inner {
+        font-family: 'Varela Round', sans-serif;
+        line-height: 1.6;
+        font-family: 'Open Sans';
+        font-size: 1.0em;
+        padding-top: 1.5em;
+        padding-bottom: .5em;
+        margin-top: 2.0em;
+    }
+    .name {
+        margin-left: auto;
+        font-family: 'Varela Round', sans-serif;
+    }
+    
+  }
+  
+  /* Larger than desktop */
+  @media (min-width: 1000px) {
+    .main-header,
+    .main-nav {
+        display: flex;
+    }
+        .main-header {
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-evenly;
+    }
+
+.aboutH1 {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+	font-family: 'Open Sans';
+	font-size: 1.5em;
+}
+.aboutH2 {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+	font-size: 1.3em;
+}
+#aboutH3 {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 1.0em;
+}
+
+.main {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 1.3em;
+}
+
+/* creates the column layout on the about page */
+.column {
+	float:right;
+	width: 50%
+    }
+    .footer-inner {
+        font-family: 'Varela Round', sans-serif;
+        line-height: 1.6;
+        font-family: 'Open Sans';
+        font-size: 1.0em;
+        padding-top: .5em;
+	    padding-bottom: .5em;
+    }
+}
+  
+  /* Larger than Desktop HD */
+  @media (min-width: 1200px) {
+    .main-header,
+    .main-nav {
+        display: flex;
+    }
+    .main-header {
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-evenly;
+    }
+
+.aboutH1 {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+	font-family: 'Open Sans';
+	font-size: 1.5em;
+}
+.aboutH2 {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+	font-size: 1.3em;
+}
+#aboutH3 {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 1.3em;
+}
+
+.main {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 1.3em;
+}
+
+/* creates the column layout on the about page */
+.column {
+	float:right;
+	width: 50%
+}
+
+/* Clear floats after the column */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.footer-inner {
+    font-family: 'Varela Round', sans-serif;
+    line-height: 1.6;
+    font-family: 'Open Sans';
+    font-size: 1.0em;
+    padding-top: .5em;
+	padding-bottom: .5em;
+}
+  }
+  .social-icons li {
+    display: inline-block;
+    margin-bottom: 5px;
+    vertical-align: middle;
+ }
+
+.social-icons a {
+    position: relative;
+    display: block;
+    width: 48px;
+    height: 48px;
+    word-break: break-all;
+ }
+
+.social-icons  span  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 48px;
+    height: 48px;
+    background-image: url( social-icons.png );
+ }
+
+.social-icons li:nth-child(2)  span {
+    background-position: -48px 0;
+ }
+
+.social-icons li:nth-child(3) span {
+    background-position: -96px 0;
+ }
+
+.social-icons li:nth-child(4) span {
+    background-position: 0 -48px;
+ }
+
+.social-icons li:nth-child(5) span  {
+    background-position: -48px -48px;
+ }
+
+.social-icons li:nth-child(6) span  {
+    background-position: -96px -48px;
+ }
